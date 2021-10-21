@@ -66,6 +66,22 @@
         width: 1140px;
         margin: 0 auto;
       }
+      #sub_menu {
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+        /* border: solid 1px red; */
+      }
+      #sub_menu h3 {
+        font-size: 17px;
+        color: black;
+        padding: 12px;
+        background-color: #FFE400;
+      }
+      #sub_menu li {
+        padding: 10px;
+        border-bottom: dotted 1px gray;
+      }
       #main_contents {
         width: 880px;
         float: right;
@@ -75,7 +91,7 @@
       #main_contents h2 {
         font-size: 22px;
         padding-bottom: 15px;
-        border-bottom: solid 4px #FFE400;
+        border-bottom: double 4px #FFE400;
       }
       #main_contents p {
         margin-top: 30px;
@@ -128,6 +144,7 @@
           <a href="introduction_1_01.html"><li><img src="img/main-menu_01.png"></li></a>
           <a href="introduction_2_01.html"><li><img src="img/main-menu_02.png"></li></a>
           <a href="introduction_3.html"><li><img src="img/main-menu_03.png"></li></a>
+        </ul>
       </nav>
     </div>
     </header>
@@ -136,11 +153,29 @@
     </section>-->
 
     <section id="contents">
+      <nav id="sub_menu">
+        <h3>그는 누구인가?</h3>
+        <ul>
+          <a href="introduction_1_01.html"><li>김중업</li></a>
+          <a href="introduction_1_02.html"><li>생애초기</li></a>
+          <a href="introduction_1_03.html"><li>유학</li></a>
+          <a href="introduction_1_04.html"><li>귀국 후 강제추방</li></a>
+          <a href="introduction_1_05.html"><li>다시 귀국</li></a>
+        </ul>
+      </nav>
       <div id="main_contents">
-        <h2>&nbsp;</h2>
-         <div id="figure">
-           <img src="img/index_page.png">
-         </div>
+        <h2>귀국 후 강제추방</h2>
+         <p> 귀국 후 김중업 건축연구소를 열고 본격적인 건축창작 활동을 하며, 한국의 고전을 현대적인 감각으로 표현하는 작업에 몰두하면서 홍익대학교에서 건축학을 가르쳤다. <br>
+            1957년 4월 중앙공보관에서 제1회 김중업 건축작품 전람회를 개최하였고, 1971년 10월 신세계백화점 화랑에서 제2회 작품전을 열고 그 동안의 작품과 프랑스 정부가 만든 영화 「건축가 김중업」을 선보였다. <br></p>
+
+            <div id="figure">
+              <img src="img/kimchungup_04.jpg">
+            </div>
+
+         <p> 그러던 중, 서울이 당면한 도시계획과 건축 등의 문제에 대한 정부시책을 과감하게 비판하였다. 1970년 4월에 준공 4개월만에 와우 아파트가 붕괴하자 라디오 동아방송에 출연해 김현옥 서울특별시장을 강하게 비판하였고, 당국에 블랙리스트로 올라가게 된다. <br>
+             이후 1970년 8월 서울시 철거민 이주를 위해 졸속추진되다 대규모 봉기를 야기한 경기도 광주대단지사건이 일어났을 때 또다시 동아일보에 기고문을 기재해 당시 책임자였던 양택식 시장을 강하게 비판한다.
+             이러한 일들로 1971년 11월 갑작스럽게 3개월 단수여권으로 강제 출국당해 프랑스에 거주하게 되었다. 중앙정보부의 강제추방으로 3개월 여권이 만료된 후 무국적자가 되어 불법체류 신분이 되었지만, 주한 프랑스 대사관의 건축으로 받은 프랑스 슈발리에 훈장으로 프랑스에서 체류하였다. <br>
+             강제추방 외에도 표적성 세무조사로 거액의 세금이 추징되고, 31빌딩 설계비도 제대로 받지 못하는 등의 시련이 이어졌으며, 이 와중에 성북동 자택도 경매로 날아가고, 소장 석물 등도 모두 매각되어 빈털터리가 된다.</p>
       </div>
     </section>
 
@@ -150,7 +185,7 @@
     <footer>
       <div id="footer_box">
         <div id="footer_logo">
-          <a href="index.html"><img src="img/footer_logo.png"></a>
+            <a href="index.html"><img src="img/footer_logo.png"></a>
         </div>
         <ul id="address">
           <li>경기도 안양시 만안구 안양예술공원로103번길 4  우 : 13912</li>

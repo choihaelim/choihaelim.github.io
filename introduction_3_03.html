@@ -15,6 +15,11 @@
         background-image: url('img/bg.jpg');
         background-repeat: no-repeat;
       }
+      table, tr, th, td {
+      border: solid 1px white;
+      border-collapse: collapse;
+      padding: 10px;
+      }
       li {
         list-style-type: none;
       }
@@ -66,6 +71,22 @@
         width: 1140px;
         margin: 0 auto;
       }
+      #sub_menu {
+        width: 234px;
+        float: left;
+        margin-top: 25px;
+        /* border: solid 1px red; */
+      }
+      #sub_menu h3 {
+        font-size: 17px;
+        color: black;
+        padding: 12px;
+        background-color: #FFE400;
+      }
+      #sub_menu li {
+        padding: 10px;
+        border-bottom: dotted 1px gray;
+      }
       #main_contents {
         width: 880px;
         float: right;
@@ -83,6 +104,14 @@
       }
       #main_contents #figure {
         margin-top: 30px;
+        text-align: center;
+      }
+      #button {
+        width: 120px;
+        height: 28px;
+        padding: 5px;
+        background-color:  #FFE400;
+        color: black;
         text-align: center;
       }
       #main_contents li {
@@ -128,6 +157,7 @@
           <a href="introduction_1_01.html"><li><img src="img/main-menu_01.png"></li></a>
           <a href="introduction_2_01.html"><li><img src="img/main-menu_02.png"></li></a>
           <a href="introduction_3.html"><li><img src="img/main-menu_03.png"></li></a>
+        </ul>
       </nav>
     </div>
     </header>
@@ -136,17 +166,62 @@
     </section>-->
 
     <section id="contents">
+      <nav id="sub_menu">
+        <h3>김중업박물관</h3>
+        <ul>
+          <a href="introduction_3.html"><li>박물관 소개</li></a>
+          <a href="introduction_3_02.html"><li>박물관 오시는길</li></a>
+          <a href="introduction_3_03.html"><li>박물관 관람예약</li></a>
+      </nav>
       <div id="main_contents">
-        <h2>&nbsp;</h2>
-         <div id="figure">
-           <img src="img/index_page.png">
-         </div>
+        <h2>박물관 관람예약</h2>
+        <br><br><br><br><br><br>
+  <form>
+   <table>
+     <tr>
+       <td>이메일 : </td> <td><input type="text"> @
+        <select>
+          <option>선택하세요</option>
+          <option>naver.com</option>
+          <option>hanmail.net</option>
+          <option>gmail.com</option>
+          <option>직접 입력</option>
+        </select>
+       </td>
+     </tr>
+    <tr>
+      <td>패스워드 : </td><td> <input type="text"></td>
+    </tr>
+    <tr>
+     <td>15인이상 관람여부 : </td><td> <input type="radio" checked name="button" id="b1"> 예
+                                <input type="radio" checked name="button" id="b2"> 아니오</td>
+    </tr>
+    <tr>
+      <td>할인대상 선택(중복할인가능) : </td> <td><input type="checkbox"> 만 6세 이하 어린이
+                                         <input type="checkbox"> 만 65세 이상 어르신
+                                         <input type="checkbox"> 국가유공자
+                                         <input type="checkbox"> 군인
+                                         <input type="checkbox" checked> 대학생
+      </td>
+    </tr>
+    <tr>
+      <td>할인요건 증빙문서 첨부하기 : </td> <td> <input type="file"></td>
+    </tr>
+    <tr>
+     <td>기타 문의사항 입력 : </td> <td><textarea rows="6" cols="50"></textarea></td>
+    </tr>
+    <tr>
+     <td>&nbsp; </td> <td><div id= "button">제출하기</div>
+     </td>
+    </tr>
+   </table>
+  </form>
       </div>
     </section>
 
     <div class="clear">
     </div> <!--float속성 해제-->
-
+    <br><br><br><br><br><br>
     <footer>
       <div id="footer_box">
         <div id="footer_logo">
