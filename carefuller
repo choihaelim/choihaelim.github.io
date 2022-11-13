@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="./img/logo_img.png" alt="" id="logo"></a>
+            <ul id="topMenu">
+                <li><a href="#sec02">PLANNING</a></li>
+                <li><a href="#sec05">VIDEO</a></li>
+                <li><a href="#sec06">DESIGN</a></li>
+                <li><a href="#sec10">SERVICE</a></li>
+                <li><a href="#footer">TEAM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sectionWrap" id="sec01" >
+        <video loop muted autoplay>
+            <source src="./img/메인.mp4" type="video/mp4">
+            <source src="./img/메인.mp4" type="video/webm">
+            <source src="./img/메인.mp4" type="video/ogg">
+        </video>
+    </section>
+
+    <section class="sectionWrap" id="sec02">
+        <div class="sec02-img">
+            <img src="./img/sec02_1.png" alt="" data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="./img/sec02_2.png" alt="" data-aos="fade-up"
+            data-aos-duration="2000">
+            <img src="./img/sec02_3.png" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+        </div>
+    </section>
+
+    <section class="sectionWrap" id="sec03">
+        <div class="sec03-img">
+            <img src="./img/sec03_1.png" alt="" class="sec3Img01" data-aos="fade-right"
+            data-aos-offset="300"
+             data-aos-duration="3000">
+            <img src="./img/sec03_2.png" alt="" class="sec3Img02" data-aos="fade-right"
+            data-aos-offset="300"
+             data-aos-duration="2000">
+            <img src="./img/sec03_3.png" alt="" class="sec3Img03" data-aos="fade-right"
+            data-aos-offset="300"
+             data-aos-duration="1000">
+        </div>
+    </section>
+
+    <section class="sectionWrap" id="sec04">
+
+    </section>
+
+    <section class="sectionWrap" id="sec05">
+        <video loop muted autoplay>
+            <source src="./img/영상_자막처리.mp4" type="video/mp4">
+            <source src="./img/영상_자막처리.mp4" type="video/webm">
+            <source src="./img/영상_자막처리.mp4" type="video/ogg">
+        </video>
+    </section>
+
+    <div id="background_img"></div>
+
+    <section class="sectionWrap" id="sec06">
+
+    </section>
+
+    <section class="sectionWrap" id="sec07">
+
+    </section>
+
+    
+    <section class="sectionWrap" id="sec08">
+        <img src="./img/sec08_1.png" alt="" id="sec08-img">
+        <video loop muted autoplay>
+            <source src="./img/logo.mp4" type="video/mp4">
+            <source src="./img/logo.mp4" type="video/webm">
+            <source src="./img/logo.mp4" type="video/ogg">
+        </video>
+    </section>
+        
+    <section class="sectionWrap" id="sec09">
+
+    </section>
+
+    <div id="background_img"></div>
+
+    <section class="sectionWrap" id="sec10">
+        <video loop muted autoplay>
+            <source src="./img/splash.mp4" type="video/mp4">
+            <source src="./img/splash.mp4" type="video/webm">
+            <source src="./img/splash.mp4" type="video/ogg">
+        </video>
+    </section>
+
+    <section class="sectionWrap" id="sec11">
+
+    </section>
+
+    <section class="sectionWrap" id="sec12">
+
+    </section>
+
+    <section class="sectionWrap" id="sec13">
+
+    </section>
+
+    <section class="sectionWrap" id="sec14">
+    
+        <video loop muted autoplay>
+            <source src="./img/id_card.mp4" type="video/mp4">
+            <source src="./img/id_card.mp4" type="video/webm">
+            <source src="./img/id_card.mp4" type="video/ogg">
+        </video>
+
+        <img src="./img/sec13_1.png" alt="">
+    </section>
+
+    <section class="sectionWrap" id="sec15">
+
+    </section>
+
+    <section class="sectionWrap" id="sec16">
+
+    </section>
+
+    <section class="sectionWrap" id="sec17">
+        <video loop muted autoplay>
+            <source src="./img/temperature.mp4" type="video/mp4">
+            <source src="./img/temperature.mp4" type="video/webm">
+            <source src="./img/temperature.mp4" type="video/ogg">
+        </video>
+    </section>
+
+    <section class="sectionWrap" id="sec18">
+        <img src="./img/sec17_1.png" alt="" id="sec18-img" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+        <img src="./img/sec17_2.png" alt="" id="sec18-img2" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+        <img src="./img/sec17_3.png" alt="" id="sec18-img3" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+        <img src="./img/sec17_4.png" alt="" id="sec18-img4" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+    </section>
+
+    <section class="sectionWrap" id="sec19">
+        <video loop muted autoplay class="video1">
+            <source src="./img/request_1.mp4" type="video/mp4">
+            <source src="./img/request_1.mp4" type="video/webm">
+            <source src="./img/request_1.mp4" type="video/ogg">
+        </video>
+        <video loop muted autoplay class="video2">
+            <source src="./img/request_2.mp4" type="video/mp4">
+            <source src="./img/request_2.mp4" type="video/webm">
+            <source src="./img/request_2.mp4" type="video/ogg">
+        </video>
+    </section>
+
+    <section class="sectionWrap" id="sec20">
+        <img src="./img/sec19_1.png" alt="" id="sec20-img">
+        <img src="./img/sec19_2.png" alt="" id="sec20-img1">
+    </section>
+
+    <section class="sectionWrap" id="sec21">
+
+    </section>
+
+    <footer id="footer">
+        
+    </footer>
+
+    <script>
+        AOS.init();
+        $(document).ready(function(){
+
+            $('#sec20-img').click(function(){
+                $('#sec20-img1').css('display','block');
+                $('#sec20-img').css('display','none');
+            });
+        });
+    </script>
+
+</body>
+</html>
